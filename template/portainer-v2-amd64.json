@@ -31,11 +31,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/AdguardHome/config",
+					"bind": "/media/DOCKER/AdguardHome/config",
 					"container": "/opt/adguardhome/conf"
 				},
 				{
-					"volume": "/media/DOCKER/AdguardHome/work",
+					"bind": "/media/DOCKER/AdguardHome/work",
 					"container": "/opt/adguardhome/work"
 				}
 			],
@@ -85,7 +85,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/adguardhome-sync/config",
+					"bind": "/media/DOCKER/adguardhome-sync/config",
 					"container": "/config"
 				}
 			],
@@ -135,23 +135,23 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/music"
 				},
 				{
-					"volume": "/media/DOCKER/Airsonic/Playlists",
+					"bind": "/media/DOCKER/Airsonic/Playlists",
 					"container": "/playlists"
 				},
 				{
-					"volume": "/MEDIA/Podcasts",
+					"bind": "/MEDIA/Podcasts",
 					"container": "/podcasts"
 				},
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/media"
 				},
 				{
-					"volume": "/media/DOCKER/Airsonic/config",
+					"bind": "/media/DOCKER/Airsonic/config",
 					"container": "/config"
 				}
 			],
@@ -201,23 +201,23 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/music"
 				},
 				{
-					"volume": "/media/DOCKER/Airsonic-Advanced/Playlists",
+					"bind": "/media/DOCKER/Airsonic-Advanced/Playlists",
 					"container": "/playlists"
 				},
 				{
-					"volume": "/MEDIA/Podcasts",
+					"bind": "/MEDIA/Podcasts",
 					"container": "/podcasts"
 				},
 				{
-					"volume": "/media/DOCKER/Airsonic-Advanced/Media",
+					"bind": "/media/DOCKER/Airsonic-Advanced/Media",
 					"container": "/media"
 				},
 				{
-					"volume": "/media/DOCKER/Airsonic-Advanced/config",
+					"bind": "/media/DOCKER/Airsonic-Advanced/config",
 					"container": "/config"
 				}
 			],
@@ -243,7 +243,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/alpine-xfce4-novnc/home/apline/downloads",
+					"bind": "/media/DOCKER/alpine-xfce4-novnc/home/apline/downloads",
 					"container": "/home/apline/downloads"
 				}
 			]
@@ -279,7 +279,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/apache-httpd",
+					"bind": "/media/DOCKER/apache-httpd",
 					"container": "/usr/local/apache2/htdocs/"
 				}
 			],
@@ -316,15 +316,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/ArchiSteamFarm/config",
+					"bind": "/media/DOCKER/ArchiSteamFarm/config",
 					"container": "/app/config"
 				},
 				{
-					"volume": "/media/DOCKER/ArchiSteamFarm/plugins",
+					"bind": "/media/DOCKER/ArchiSteamFarm/plugins",
 					"container": "/app/plugins"
 				},
 				{
-					"volume": "/media/DOCKER/ArchiSteamFarm/logs",
+					"bind": "/media/DOCKER/ArchiSteamFarm/logs",
 					"container": "/app/logs"
 				}
 			],
@@ -376,7 +376,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/archivebox/data",
+					"bind": "/media/DOCKER/archivebox/data",
 					"container": "/data"
 				}
 			]
@@ -415,11 +415,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/AriaNG/conf",
+					"bind": "/media/DOCKER/AriaNG/conf",
 					"container": "/aria2/conf"
 				},
 				{
-					"volume": "/media/DOCKER/AriaNG/data",
+					"bind": "/media/DOCKER/AriaNG/data",
 					"container": "/aria2/data"
 				}
 			],
@@ -452,7 +452,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Authelia",
+					"bind": "/media/DOCKER/Authelia",
 					"container": "/etc/authelia/"
 				}
 			]
@@ -549,15 +549,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Bazarr/config",
+					"bind": "/media/DOCKER/Bazarr/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/tv"
 				},
 				{
-					"volume": "/MEDIA/Movies",
+					"bind": "/MEDIA/Movies",
 					"container": "/movies"
 				}
 			],
@@ -592,15 +592,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Beets/config",
+					"bind": "/media/DOCKER/Beets/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/music"
 				}
 			],
@@ -632,15 +632,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/bind9/named.conf",
+					"bind": "/media/DOCKER/bind9/named.conf",
 					"container": "etc/bind/named.conf"
 				},
 				{
-					"volume": "/media/DOCKER/bind9/var/cache/bind",
+					"bind": "/media/DOCKER/bind9/var/cache/bind",
 					"container": "/var/cache/bind"
 				},
 				{
-					"volume": "/media/DOCKER/bind9/var/lib/bind",
+					"bind": "/media/DOCKER/bind9/var/lib/bind",
 					"container": "/var/lib/bind"
 				}
 			],
@@ -681,15 +681,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Books",
+					"bind": "/MEDIA/Books",
 					"container": "/books"
 				},
 				{
-					"volume": "/MEDIA/Podcasts",
+					"bind": "/MEDIA/Podcasts",
 					"container": "/podcast"
 				},
 				{
-					"volume": "/media/DOCKER/Booksonic/config",
+					"bind": "/media/DOCKER/Booksonic/config",
 					"container": "/config"
 				}
 			],
@@ -769,15 +769,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Caddy/Data",
+					"bind": "/media/DOCKER/Caddy/Data",
 					"container": "/data"
 				},
 				{
-					"volume": "/media/DOCKER/Caddy/Config",
+					"bind": "/media/DOCKER/Caddy/Config",
 					"container": "/config"
 				},
 				{
-					"volume": "/media/DOCKER/Caddy/Caddyfile",
+					"bind": "/media/DOCKER/Caddy/Caddyfile",
 					"container": "/etc/caddy/Caddyfile"
 				}
 			]
@@ -818,11 +818,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Books",
+					"bind": "/MEDIA/Books",
 					"container": "/books"
 				},
 				{
-					"volume": "/media/DOCKER/Calibre/config",
+					"bind": "/media/DOCKER/Calibre/config",
 					"container": "/config"
 				}
 			],
@@ -858,11 +858,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Books",
+					"bind": "/MEDIA/Books",
 					"container": "/books"
 				},
 				{
-					"volume": "/media/DOCKER/Calibre-web/config",
+					"bind": "/media/DOCKER/Calibre-web/config",
 					"container": "/config"
 				}
 			],
@@ -897,7 +897,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Cardigann/config",
+					"bind": "/media/DOCKER/Cardigann/config",
 					"container": "/config"
 				}
 			],
@@ -1013,19 +1013,19 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/etc/timezone",
+					"bind": "/etc/timezone",
 					"container": "/etc/timezone"
 				},
 				{
-					"volume": "/etc/localtime",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime"
 				},
 				{
-					"volume": "/media/DOCKER/clamav/config",
+					"bind": "/media/DOCKER/clamav/config",
 					"container": "/etc/clamav"
 				},
 				{
-					"volume": "/media/DOCKER/clamav/virus_definitions",
+					"bind": "/media/DOCKER/clamav/virus_definitions",
 					"container": "/var/lib/clamav"
 				}
 			],
@@ -1146,7 +1146,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Code-Server/config",
+					"bind": "/media/DOCKER/Code-Server/config",
 					"container": "/config"
 				}
 			],
@@ -1181,7 +1181,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Codiad/config",
+					"bind": "/media/DOCKER/Codiad/config",
 					"container": "/config"
 				}
 			],
@@ -1217,11 +1217,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Books",
+					"bind": "/MEDIA/Books",
 					"container": "/books"
 				},
 				{
-					"volume": "/media/DOCKER/Cops/config",
+					"bind": "/media/DOCKER/Cops/config",
 					"container": "/config"
 				}
 			],
@@ -1257,15 +1257,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Couchpotato/config",
+					"bind": "/media/DOCKER/Couchpotato/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/MEDIA/Movies",
+					"bind": "/MEDIA/Movies",
 					"container": "/movies"
 				}
 			],
@@ -1300,11 +1300,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Daapd/config",
+					"bind": "/media/DOCKER/Daapd/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/music"
 				}
 			],
@@ -1328,7 +1328,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Dashmachine",
+					"bind": "/media/DOCKER/Dashmachine",
 					"container": "/dashmachine/dashmachine/user_data"
 				}
 			],
@@ -1363,7 +1363,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Dashy/local-conf.yml",
+					"bind": "/media/DOCKER/Dashy/local-conf.yml",
 					"container": "/app/public/conf.yml"
 				}
 			],
@@ -1418,7 +1418,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/DavinciServer/",
+					"bind": "/media/DOCKER/DavinciServer/",
 					"container": "/var/lib/postgresql/data"
 				}
 			],
@@ -1455,11 +1455,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Davos/config",
+					"bind": "/media/DOCKER/Davos/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -1484,11 +1484,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/DeeMix/config",
+					"bind": "/media/DOCKER/DeeMix/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			]
@@ -1528,11 +1528,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Deluge/config",
+					"bind": "/media/DOCKER/Deluge/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -1609,15 +1609,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/etc/localtime",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/media/DOCKER/DelugeOpenVPN/config",
+					"bind": "/media/DOCKER/DelugeOpenVPN/config",
 					"container": "/config"
 				}
 			],
@@ -1655,7 +1655,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Domoticz/config",
+					"bind": "/media/DOCKER/Domoticz/config",
 					"container": "/config"
 				}
 			],
@@ -1680,7 +1680,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/var/run/docker.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				}
 			]
@@ -1859,7 +1859,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Duplicati/config",
+					"bind": "/media/DOCKER/Duplicati/config",
 					"container": "/config"
 				},
 				{
@@ -1893,15 +1893,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/eclipse-mosquitto/config",
+					"bind": "/media/DOCKER/eclipse-mosquitto/config",
 					"container": "/mosquitto/config"
 				},
 				{
-					"volume": "/media/DOCKER/eclipse-mosquitto/data",
+					"bind": "/media/DOCKER/eclipse-mosquitto/data",
 					"container": "/mosquitto/data"
 				},
 				{
-					"volume": "/media/DOCKER/eclipse-mosquitto/log",
+					"bind": "/media/DOCKER/eclipse-mosquitto/log",
 					"container": "/mosquitto/log"
 				}
 			],
@@ -1944,15 +1944,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Emby/config",
+					"bind": "/media/DOCKER/Emby/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/data/tvshows"
 				},
 				{
-					"volume": "/MEDIA/Movies",
+					"bind": "/MEDIA/Movies",
 					"container": "/data/movies"
 				}
 			],
@@ -1977,7 +1977,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/EmbyStat/config",
+					"bind": "/media/DOCKER/EmbyStat/config",
 					"container": "/config"
 				}
 			]
@@ -2001,15 +2001,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/srv"
 				},
 				{
-					"volume": "/media/DOCKER/Filebrowser/filebrowser.db",
+					"bind": "/media/DOCKER/Filebrowser/filebrowser.db",
 					"container": "/database/filebrowser.db"
 				},
 				{
-					"volume": "/media/DOCKER/Filebrowser/settings.json",
+					"bind": "/media/DOCKER/Filebrowser/settings.json",
 					"container": "/config/settings.json"
 				}
 			]
@@ -2045,15 +2045,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/srv"
 				},
 				{
-					"volume": "/media/DOCKER/Filebrowser/filebrowser.db",
+					"bind": "/media/DOCKER/Filebrowser/filebrowser.db",
 					"container": "/database/filebrowser.db"
 				},
 				{
-					"volume": "/media/DOCKER/Filebrowser/settings.json",
+					"bind": "/media/DOCKER/Filebrowser/settings.json",
 					"container": "/config/settings.json"
 				}
 			]
@@ -2083,11 +2083,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Flame/data",
+					"bind": "/media/DOCKER/Flame/data",
 					"container": "/app/data"
 				},
 				{
-					"volume": "/var/run/docker.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				}
 			],
@@ -2173,7 +2173,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/flatnotes/data",
+					"bind": "/media/DOCKER/flatnotes/data",
 					"container": "/app/data"
 				}
 			],
@@ -2219,7 +2219,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/foundryvtt/data",
+					"bind": "/media/DOCKER/foundryvtt/data",
 					"container": "/data"
 				}
 			],
@@ -2254,7 +2254,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/freshrss/config",
+					"bind": "/media/DOCKER/freshrss/config",
 					"container": "/config"
 				}
 			],
@@ -2291,15 +2291,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Gazee/config",
+					"bind": "/media/DOCKER/Gazee/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Comics",
+					"bind": "/MEDIA/Comics",
 					"container": "/comics"
 				},
 				{
-					"volume": "/MEDIA/Gazee",
+					"bind": "/MEDIA/Gazee",
 					"container": "/mylar"
 				}
 			],
@@ -2335,7 +2335,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Ghost",
+					"bind": "/media/DOCKER/Ghost",
 					"container": "/var/lib/ghost/content"
 				}
 			],
@@ -2422,15 +2422,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Gitea/data",
+					"bind": "/media/DOCKER/Gitea/data",
 					"container": "/data"
 				},
 				{
-					"volume": "/etc/timezone",
+					"bind": "/etc/timezone",
 					"container": "/etc/timezone:ro"
 				},
 				{
-					"volume": "/etc/localtime",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime:ro"
 				}
 			]
@@ -2543,7 +2543,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/gotify",
+					"bind": "/media/DOCKER/gotify",
 					"container": "/app/data"
 				}
 			]
@@ -2637,7 +2637,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Grocy/config",
+					"bind": "/media/DOCKER/Grocy/config",
 					"container": "/config"
 				}
 			],
@@ -2672,15 +2672,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Headphones/config",
+					"bind": "/media/DOCKER/Headphones/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/Downloads"
 				},
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/music"
 				}
 			],
@@ -2718,7 +2718,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Heimdall/config",
+					"bind": "/media/DOCKER/Heimdall/config",
 					"container": "/config"
 				}
 			],
@@ -2756,15 +2756,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/var/run/docker.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				},
 				{
-					"volume": "/media/DOCKER/Homarr/configs",
+					"bind": "/media/DOCKER/Homarr/configs",
 					"container": "/app/data/configs"
 				},
 				{
-					"volume": "/media/DOCKER/Homarr/icons",
+					"bind": "/media/DOCKER/Homarr/icons",
 					"container": "/app/public/icons"
 				}
 			]
@@ -2801,11 +2801,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Homarr/configs",
+					"bind": "/media/DOCKER/Homarr/configs",
 					"container": "/app/data/configs"
 				},
 				{
-					"volume": "/media/DOCKER/Homarr/icons",
+					"bind": "/media/DOCKER/Homarr/icons",
 					"container": "/app/public/icons"
 				}
 			]
@@ -2824,7 +2824,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/HomeAssistant/config",
+					"bind": "/media/DOCKER/HomeAssistant/config",
 					"container": "/config"
 				}
 			],
@@ -2874,7 +2874,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/homebridge",
+					"bind": "/media/DOCKER/homebridge",
 					"container": "/homebridge"
 				}
 			]
@@ -2923,7 +2923,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/debian-homebridge",
+					"bind": "/media/DOCKER/debian-homebridge",
 					"container": "/homebridge"
 				}
 			]
@@ -2945,11 +2945,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Homepage/config",
+					"bind": "/media/DOCKER/Homepage/config",
 					"container": "/app/config"
 				},
 				{
-					"volume": "/var/run/docker.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				}
 			],
@@ -2976,7 +2976,7 @@
 			"image": "b4bz/homer:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homer.png",
 			"name": "homer",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/bastienwirtz/homer\" target=\"_blank\">https://github.com/bastienwirtz/homer</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md\" target=\"_blank\">https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md</a><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/install_homer.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/install_homer.sh | bash</h3><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=_d3J88ootYo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=2 target=\"_blank\">Novaspirit Tech - Installing and Configuring Homer Dashboard</a><br><br>This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/bastienwirtz/homer\" target=\"_blank\">https://github.com/bastienwirtz/homer</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md\" target=\"_blank\">https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md</a><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/install_homer.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/install_homer.sh | bash</h3><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=_d3J88ootYo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=2 target=\"_blank\">Novaspirit Tech - Installing and Configuring Homer Dashboard</a><br><br>This container requires a yml file within the config bind. See the documentation here https://github.com/bastienwirtz/homer",
 			"platform": "linux",
 			"ports": [
 				"8902:8080/tcp"
@@ -2986,7 +2986,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Homer/assets",
+					"bind": "/media/DOCKER/Homer/assets",
 					"container": "/www/assets"
 				}
 			]
@@ -3022,7 +3022,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/HTPCmanager/config",
+					"bind": "/media/DOCKER/HTPCmanager/config",
 					"container": "/config"
 				}
 			],
@@ -3046,7 +3046,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/huginn",
+					"bind": "/media/DOCKER/huginn",
 					"container": "/var/lib/mysql"
 				}
 			],
@@ -3072,11 +3072,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Influxdb/data",
+					"bind": "/media/DOCKER/Influxdb/data",
 					"container": "/var/lib/influxdb"
 				},
 				{
-					"volume": "/media/DOCKER/Influxdb/config",
+					"bind": "/media/DOCKER/Influxdb/config",
 					"container": "/etc/influxdb"
 				}
 			]
@@ -3128,11 +3128,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Influxdb2/data",
+					"bind": "/media/DOCKER/Influxdb2/data",
 					"container": "/var/lib/influxdb2"
 				},
 				{
-					"volume": "/media/DOCKER/Influxdb2/config",
+					"bind": "/media/DOCKER/Influxdb2/config",
 					"container": "/etc/influxdb2"
 				}
 			]
@@ -3349,7 +3349,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/iobroker",
+					"bind": "/media/DOCKER/iobroker",
 					"container": "/opt/iobroker"
 				}
 			],
@@ -3385,11 +3385,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Jackett/config",
+					"bind": "/media/DOCKER/Jackett/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -3430,11 +3430,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/JDownloader/cfg",
+					"bind": "/media/DOCKER/JDownloader/cfg",
 					"container": "/opt/JDownloader/app/cfg"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/opt/JDownloader/Downloads"
 				}
 			],
@@ -3477,15 +3477,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Jellyfin/config",
+					"bind": "/media/DOCKER/Jellyfin/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/data/tvshows"
 				},
 				{
-					"volume": "/MEDIA/Movies",
+					"bind": "/MEDIA/Movies",
 					"container": "/data/movies"
 				}
 			],
@@ -3513,15 +3513,15 @@
 			],
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Jelllyfin",
+					"bind": "/media/DOCKER/Jelllyfin",
 					"container": "/jf"
 				},
 				{
-					"volume": "/media/DOCKER/jfago/data",
+					"bind": "/media/DOCKER/jfago/data",
 					"container": "/data"
 				},
 				{
-					"volume": "/etc/localtime",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime",
 					"readonly": true
 				}
@@ -3568,7 +3568,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Jellyseerr/config",
+					"bind": "/media/DOCKER/Jellyseerr/config",
 					"container": "/app/config"
 				}
 			],
@@ -3599,19 +3599,19 @@
 			],
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Kavita/manga",
+					"bind": "/media/DOCKER/Kavita/manga",
 					"container": "/manga"
 				},
 				{
-					"volume": "/media/DOCKER/Kavita/comics",
+					"bind": "/media/DOCKER/Kavita/comics",
 					"container": "/comics"
 				},
 				{
-					"volume": "/media/DOCKER/Kavita/books",
+					"bind": "/media/DOCKER/Kavita/books",
 					"container": "/books"
 				},
 				{
-					"volume": "/media/DOCKER/Kavita/config",
+					"bind": "/media/DOCKER/Kavita/config",
 					"container": "/kavita/config"
 				}
 			],
@@ -3674,7 +3674,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Kodi/config/.kodi",
+					"bind": "/media/DOCKER/Kodi/config/.kodi",
 					"container": "/config/.kodi"
 				}
 			],
@@ -3698,15 +3698,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/komga/config",
+					"bind": "/media/DOCKER/komga/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/media/DOCKER/komga/data",
+					"bind": "/media/DOCKER/komga/data",
 					"container": "/data"
 				},
 				{
-					"volume": "/etc/timezone",
+					"bind": "/etc/timezone",
 					"container": "/etc/timezone",
 					"read_only": "true"
 				}
@@ -3819,7 +3819,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/LetsEncrypt/config",
+					"bind": "/media/DOCKER/LetsEncrypt/config",
 					"container": "/config"
 				}
 			],
@@ -3843,7 +3843,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/libreddit/config",
+					"bind": "/media/DOCKER/libreddit/config",
 					"container": "/config"
 				}
 			],
@@ -3879,7 +3879,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/LibreSpeed/config",
+					"bind": "/media/DOCKER/LibreSpeed/config",
 					"container": "/config"
 				}
 			],
@@ -3915,15 +3915,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Lidarr/config",
+					"bind": "/media/DOCKER/Lidarr/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/music"
 				}
 			],
@@ -4005,7 +4005,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/lldap/data",
+					"bind": "/media/DOCKER/lldap/data",
 					"container": "/data"
 				}
 			],
@@ -4068,11 +4068,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Lychee/config",
+					"bind": "/media/DOCKER/Lychee/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Pictures",
+					"bind": "/MEDIA/Pictures",
 					"container": "/pictures"
 				}
 			],
@@ -4164,7 +4164,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Maloja/Data",
+					"bind": "/media/DOCKER/Maloja/Data",
 					"container": "/data"
 				}
 			],
@@ -4220,7 +4220,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Mariadb/config",
+					"bind": "/media/DOCKER/Mariadb/config",
 					"container": "/config"
 				}
 			],
@@ -4302,7 +4302,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/mealie/data",
+					"bind": "/media/DOCKER/mealie/data",
 					"container": "/app/data"
 				}
 			]
@@ -4337,15 +4337,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Medusa/config",
+					"bind": "/media/DOCKER/Medusa/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/tv"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -4380,7 +4380,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -4412,7 +4412,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Minecraft/data",
+					"bind": "/media/DOCKER/Minecraft/data",
 					"container": "/data"
 				}
 			],
@@ -4500,7 +4500,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/MinIO/data",
+					"bind": "/media/DOCKER/MinIO/data",
 					"container": "/data"
 				}
 			],
@@ -4628,11 +4628,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Mstream/config",
+					"bind": "/media/DOCKER/Mstream/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Music",
+					"bind": "/MEDIA/Music",
 					"container": "/music"
 				}
 			],
@@ -4675,19 +4675,19 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/etc/localtime:ro",
+					"bind": "/etc/localtime:ro",
 					"container": "/etc/localtime"
 				},
 				{
-					"volume": "/media/DOCKER/Murmur/config",
+					"bind": "/media/DOCKER/Murmur/config",
 					"container": "/opt/murmur/config"
 				},
 				{
-					"volume": "/media/DOCKER/Murmur/data",
+					"bind": "/media/DOCKER/Murmur/data",
 					"container": "/opt/murmur/data"
 				},
 				{
-					"volume": "/media/DOCKER/Murmur/log",
+					"bind": "/media/DOCKER/Murmur/log",
 					"container": "/opt/murmur/log"
 				}
 			],
@@ -4729,11 +4729,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/MusicBrainz/config",
+					"bind": "/media/DOCKER/MusicBrainz/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/media/DOCKER/MusicBrainz/data",
+					"bind": "/media/DOCKER/MusicBrainz/data",
 					"container": "/data"
 				}
 			],
@@ -4771,7 +4771,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Muximux/config",
+					"bind": "/media/DOCKER/Muximux/config",
 					"container": "/config"
 				}
 			],
@@ -4807,15 +4807,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Mylar/config",
+					"bind": "/media/DOCKER/Mylar/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/MEDIA/Comics",
+					"bind": "/MEDIA/Comics",
 					"container": "/comics"
 				}
 			],
@@ -4861,7 +4861,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/MySQL",
+					"bind": "/media/DOCKER/MySQL",
 					"container": "/var/lib/mysql"
 				}
 			],
@@ -4903,7 +4903,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/n8n",
+					"bind": "/media/DOCKER/n8n",
 					"container": "/home/node/.n8n"
 				}
 			]
@@ -4939,31 +4939,31 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/netdata/netdataconfig",
+					"bind": "/media/DOCKER/netdata/netdataconfig",
 					"container": "/etc/netdata"
 				},
 				{
-					"volume": "/media/DOCKER/netdata/netdatalib",
+					"bind": "/media/DOCKER/netdata/netdatalib",
 					"container": "/var/lib/netdata"
 				},
 				{
-					"volume": "/etc/passwd",
+					"bind": "/etc/passwd",
 					"container": "/host/etc/passwd:ro"
 				},
 				{
-					"volume": "/etc/group",
+					"bind": "/etc/group",
 					"container": "/host/etc/group:ro"
 				},
 				{
-					"volume": "/proc",
+					"bind": "/proc",
 					"container": "/host/proc:ro"
 				},
 				{
-					"volume": "/sys",
+					"bind": "/sys",
 					"container": "/host/sys:ro"
 				},
 				{
-					"volume": "/etc/os-release",
+					"bind": "/etc/os-release",
 					"container": "/host/etc/os-release:ro"
 				}
 			]
@@ -5052,7 +5052,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Nextcloud/data",
+					"bind": "/media/DOCKER/Nextcloud/data",
 					"container": "/data"
 				}
 			]
@@ -5088,7 +5088,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Nginx/config",
+					"bind": "/media/DOCKER/Nginx/config",
 					"container": "/config"
 				}
 			],
@@ -5321,11 +5321,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/nginx-proxy-manager/data",
+					"bind": "/media/DOCKER/nginx-proxy-manager/data",
 					"container": "/data"
 				},
 				{
-					"volume": "/media/DOCKER/nginx-proxy-manager/letsencrypt",
+					"bind": "/media/DOCKER/nginx-proxy-manager/letsencrypt",
 					"container": "/etc/letsencrypt"
 				}
 			],
@@ -5368,7 +5368,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/nginx-proxy-manager-v3/data",
+					"bind": "/media/DOCKER/nginx-proxy-manager-v3/data",
 					"container": "/data"
 				}
 			],
@@ -5576,11 +5576,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Nzbget/config",
+					"bind": "/media/DOCKER/Nzbget/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -5617,11 +5617,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Nzbhydra2/config",
+					"bind": "/media/DOCKER/Nzbhydra2/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -5658,11 +5658,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/OctoPrint",
+					"bind": "/media/DOCKER/OctoPrint",
 					"container": "/octoprint"
 				},
 				{
-					"volume": "/dev",
+					"bind": "/dev",
 					"container": "/dev"
 				}
 			],
@@ -5705,7 +5705,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Omada/config",
+					"bind": "/media/DOCKER/Omada/config",
 					"container": "/config"
 				}
 			],
@@ -5743,7 +5743,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Ombi/config",
+					"bind": "/media/DOCKER/Ombi/config",
 					"container": "/config"
 				}
 			],
@@ -5779,7 +5779,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Organizr/config",
+					"bind": "/media/DOCKER/Organizr/config",
 					"container": "/config"
 				}
 			],
@@ -5815,7 +5815,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/OScam/config",
+					"bind": "/media/DOCKER/OScam/config",
 					"container": "/config"
 				}
 			],
@@ -5857,7 +5857,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Overseerr/config",
+					"bind": "/media/DOCKER/Overseerr/config",
 					"container": "/config"
 				}
 			],
@@ -5977,7 +5977,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/pgAdmin",
+					"bind": "/media/DOCKER/pgAdmin",
 					"container": "/var/lib/pgadmin"
 				}
 			],
@@ -6100,15 +6100,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Pictures",
+					"bind": "/MEDIA/Pictures",
 					"container": "/Pictures"
 				},
 				{
-					"volume": "/MEDIA/Thumbs",
+					"bind": "/MEDIA/Thumbs",
 					"container": "/Thumbs"
 				},
 				{
-					"volume": "/media/DOCKER/PhotoShow/config",
+					"bind": "/media/DOCKER/PhotoShow/config",
 					"container": "/config"
 				}
 			],
@@ -6137,11 +6137,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/PiHole",
+					"bind": "/media/DOCKER/PiHole",
 					"container": "/etc/pihole"
 				},
 				{
-					"volume": "/media/DOCKER/PiHole/DNS",
+					"bind": "/media/DOCKER/PiHole/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -6169,11 +6169,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/PiHole_DoH-DoT",
+					"bind": "/media/DOCKER/PiHole_DoH-DoT",
 					"container": "/etc/pihole"
 				},
 				{
-					"volume": "/media/DOCKER/PiHole_DoH-DoT/DNS",
+					"bind": "/media/DOCKER/PiHole_DoH-DoT/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -6240,11 +6240,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/PiHole-Unbound",
+					"bind": "/media/DOCKER/PiHole-Unbound",
 					"container": "/etc/pihole"
 				},
 				{
-					"volume": "/media/DOCKER/PiHole-Unbound/DNS",
+					"bind": "/media/DOCKER/PiHole-Unbound/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -6258,7 +6258,7 @@
 			"image": "seanriggs/pi-weather-station",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/weather.png",
 			"name": "pi-weather-station",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/SeanRiggs/pi-weather-station\" target=\"_blank\">https://github.com/SeanRiggs/pi-weather-station</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/SeanRiggs/pi-weather-station/blob/master/Docker%20Image/Docker-ReadMe.md\" target=\"_blank\">https://github.com/SeanRiggs/pi-weather-station/blob/master/Docker%20Image/Docker-ReadMe.md</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=5JfPzvcm0E8 target=\"_blank\">Novaspirit Tech - Your Personal Weather Station Docker Container</a><br><br>MUST DO FIRST! - create volume call weatherdata",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/SeanRiggs/pi-weather-station\" target=\"_blank\">https://github.com/SeanRiggs/pi-weather-station</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/SeanRiggs/pi-weather-station/blob/master/Docker%20Image/Docker-ReadMe.md\" target=\"_blank\">https://github.com/SeanRiggs/pi-weather-station/blob/master/Docker%20Image/Docker-ReadMe.md</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=5JfPzvcm0E8 target=\"_blank\">Novaspirit Tech - Your Personal Weather Station Docker Container</a><br><br>MUST DO FIRST! - create bind call weatherdata",
 			"platform": "linux",
 			"ports": [
 				"8888:8080/tcp"
@@ -6268,7 +6268,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/pi-weather-station",
+					"bind": "/media/DOCKER/pi-weather-station",
 					"container": "/app"
 				}
 			]
@@ -6302,7 +6302,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/PiWigo/config",
+					"bind": "/media/DOCKER/PiWigo/config",
 					"container": "/config"
 				}
 			],
@@ -6325,15 +6325,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/pixel-server/auth.cfg",
+					"bind": "/media/DOCKER/pixel-server/auth.cfg",
 					"container": "/opt/pixel-server/auth.cfg"
 				},
 				{
-					"volume": "/media/DOCKER/pixel-server/pixelserver.cfg",
+					"bind": "/media/DOCKER/pixel-server/pixelserver.cfg",
 					"container": "/opt/pixel-server/pixelserver.cfg"
 				},
 				{
-					"volume": "/media/DOCKER/pixel-server/users.cfg",
+					"bind": "/media/DOCKER/pixel-server/users.cfg",
 					"container": "/opt/pixel-server/users.cfg"
 				},
 				{
@@ -6377,15 +6377,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Plex/config",
+					"bind": "/media/DOCKER/Plex/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/tv"
 				},
 				{
-					"volume": "/MEDIA/Movies",
+					"bind": "/MEDIA/Movies",
 					"container": "/movies"
 				}
 			],
@@ -6431,7 +6431,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/PostgreSQL/data",
+					"bind": "/media/DOCKER/PostgreSQL/data",
 					"container": "/var/lib/postgresql/data"
 				}
 			],
@@ -6510,11 +6510,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/portainer/Files/AppData/PrivateBin/data",
+					"bind": "/portainer/Files/AppData/PrivateBin/data",
 					"container": "/srv/data"
 				},
 				{
-					"volume": "/media/DOCKER/PrivateBin/config",
+					"bind": "/media/DOCKER/PrivateBin/config",
 					"container": "/srv/cfg"
 				}
 			],
@@ -6552,11 +6552,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/portainer/Files/AppData/ProjectSend/data",
+					"bind": "/portainer/Files/AppData/ProjectSend/data",
 					"container": "/data"
 				},
 				{
-					"volume": "/media/DOCKER/ProjectSend/config",
+					"bind": "/media/DOCKER/ProjectSend/config",
 					"container": "/config"
 				}
 			],
@@ -6584,7 +6584,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/portainer/Files/AppData/ProtonMail-Bridge",
+					"bind": "/portainer/Files/AppData/ProtonMail-Bridge",
 					"container": "/root"
 				}
 			]
@@ -6623,7 +6623,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/prowlarr/config",
+					"bind": "/media/DOCKER/prowlarr/config",
 					"container": "/config"
 				}
 			],
@@ -6659,11 +6659,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Pydio/config",
+					"bind": "/media/DOCKER/Pydio/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/portainer/Files/AppData/Pydio/data",
+					"bind": "/portainer/Files/AppData/Pydio/data",
 					"container": "/data"
 				}
 			],
@@ -6700,11 +6700,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/qBittorrent/config",
+					"bind": "/media/DOCKER/qBittorrent/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -6756,11 +6756,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/qFlood/config",
+					"bind": "/media/DOCKER/qFlood/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/app/qBittorrent/downloads"
 				}
 			]
@@ -6794,7 +6794,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Quassel-core/config",
+					"bind": "/media/DOCKER/Quassel-core/config",
 					"container": "/config"
 				}
 			],
@@ -6830,15 +6830,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Radarr/config",
+					"bind": "/media/DOCKER/Radarr/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/MEDIA/Movies",
+					"bind": "/MEDIA/Movies",
 					"container": "/movies"
 				}
 			],
@@ -6906,7 +6906,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/RDesktop/config",
+					"bind": "/media/DOCKER/RDesktop/config",
 					"container": "/config"
 				}
 			],
@@ -7032,15 +7032,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/readarr/config",
+					"bind": "/media/DOCKER/readarr/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Books",
+					"bind": "/MEDIA/Books",
 					"container": "/books"
 				},
 				{
-					"volume": "/MEDIA/downloads",
+					"bind": "/MEDIA/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7143,14 +7143,14 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Resilio-Sync/config",
+					"bind": "/media/DOCKER/Resilio-Sync/config",
 					"container": "/config"
 				},
 				{
 					"container": "/sync"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7194,7 +7194,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/rustdesk/data",
+					"bind": "/media/DOCKER/rustdesk/data",
 					"container": "/data"
 				}
 			]
@@ -7253,15 +7253,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/ruTorrent/config",
+					"bind": "/media/DOCKER/ruTorrent/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/media/DOCKER/ruTorrent/passwd",
+					"bind": "/media/DOCKER/ruTorrent/passwd",
 					"container": "/passwd"
 				}
 			]
@@ -7296,15 +7296,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Sabnzbd/config",
+					"bind": "/media/DOCKER/Sabnzbd/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/MEDIA/Downloads/incomplete",
+					"bind": "/MEDIA/Downloads/incomplete",
 					"container": "/incomplete-downloads"
 				}
 			],
@@ -7368,7 +7368,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Samba/share",
+					"bind": "/media/DOCKER/Samba/share",
 					"container": "/share"
 				}
 			],
@@ -7404,7 +7404,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/searxng",
+					"bind": "/media/DOCKER/searxng",
 					"container": "/etc/searxng"
 				}
 			],
@@ -7428,7 +7428,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Shiori",
+					"bind": "/media/DOCKER/Shiori",
 					"container": "/srv/shiori"
 				}
 			],
@@ -7464,15 +7464,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/SickChill/config",
+					"bind": "/media/DOCKER/SickChill/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/tv"
 				}
 			],
@@ -7508,15 +7508,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/SickGear/config",
+					"bind": "/media/DOCKER/SickGear/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/tv"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7551,11 +7551,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Smokeping/config",
+					"bind": "/media/DOCKER/Smokeping/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/media/DOCKER/Smokeping/data",
+					"bind": "/media/DOCKER/Smokeping/data",
 					"container": "/data"
 				}
 			],
@@ -7580,7 +7580,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Snippet-box/data",
+					"bind": "/media/DOCKER/Snippet-box/data",
 					"container": "/app/data"
 				}
 			]
@@ -7615,19 +7615,19 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Sonarr/config",
+					"bind": "/media/DOCKER/Sonarr/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/dev/rtc",
+					"bind": "/dev/rtc",
 					"container": "/dev/rtc"
 				},
 				{
-					"volume": "/MEDIA/TV",
+					"bind": "/MEDIA/TV",
 					"container": "/tv"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7659,7 +7659,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/speedtest-tracker/config",
+					"bind": "/media/DOCKER/speedtest-tracker/config",
 					"container": "/config"
 				}
 			],
@@ -7711,7 +7711,7 @@
 			"command": "start --user ${SDB_USERNAME} --pass ${SDB_PASSWORD} file:/data/database.db",
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/surrealdb/data",
+					"bind": "/media/DOCKER/surrealdb/data",
 					"container": "/data"
 				}
 			],
@@ -7786,7 +7786,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/swag/config",
+					"bind": "/media/DOCKER/swag/config",
 					"container": "/config"
 				}
 			],
@@ -7826,7 +7826,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Syncthing/config",
+					"bind": "/media/DOCKER/Syncthing/config",
 					"container": "/config"
 				},
 				{
@@ -7863,11 +7863,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/etc/timezone",
+					"bind": "/etc/timezone",
 					"container": "/etc/timezone"
 				},
 				{
-					"volume": "/etc/localtime",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime"
 				}
 			],
@@ -7898,11 +7898,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/tailscale",
+					"bind": "/media/DOCKER/tailscale",
 					"container": "/var/lib/tailscale"
 				},
 				{
-					"volume": "/dev/net/tun",
+					"bind": "/dev/net/tun",
 					"container": "/dev/net/tun"
 				}
 			],
@@ -7938,11 +7938,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Tautulli/logs",
+					"bind": "/media/DOCKER/Tautulli/logs",
 					"container": "/logs"
 				},
 				{
-					"volume": "/media/DOCKER/Tautulli/config",
+					"bind": "/media/DOCKER/Tautulli/config",
 					"container": "/config"
 				}
 			],
@@ -7977,7 +7977,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/TheLounge/config",
+					"bind": "/media/DOCKER/TheLounge/config",
 					"container": "/config"
 				}
 			],
@@ -8001,7 +8001,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/TiddlyWiki",
+					"bind": "/media/DOCKER/TiddlyWiki",
 					"container": "/var/lib/tiddlywiki"
 				}
 			],
@@ -8029,19 +8029,19 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/traefik/traefik.yml",
+					"bind": "/media/DOCKER/traefik/traefik.yml",
 					"container": "/traefik.yml"
 				},
 				{
-					"volume": "/media/DOCKER/traefik/config.yml",
+					"bind": "/media/DOCKER/traefik/config.yml",
 					"container": "/config.yml"
 				},
 				{
-					"volume": "/media/DOCKER/traefik/acme.json",
+					"bind": "/media/DOCKER/traefik/acme.json",
 					"container": "/acme.json"
 				},
 				{
-					"volume": "/var/run/docker.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				}
 			]
@@ -8076,11 +8076,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Transmission/config",
+					"bind": "/media/DOCKER/Transmission/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/downloads"
 				},
 				{
@@ -8154,11 +8154,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/data"
 				},
 				{
-					"volume": "/etc/localtime",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime"
 				}
 			]
@@ -8228,11 +8228,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/MEDIA/Downloads",
+					"bind": "/MEDIA/Downloads",
 					"container": "/data"
 				},
 				{
-					"volume": "/etc/localtime",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime"
 				}
 			]
@@ -8268,7 +8268,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/TVHeadend/config",
+					"bind": "/media/DOCKER/TVHeadend/config",
 					"container": "/config"
 				},
 				{
@@ -8361,7 +8361,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Unifi/config",
+					"bind": "/media/DOCKER/Unifi/config",
 					"container": "/config"
 				}
 			],
@@ -8414,11 +8414,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/UnifFiVideo/Recordings",
+					"bind": "/media/DOCKER/UnifFiVideo/Recordings",
 					"container": "/recordings"
 				},
 				{
-					"volume": "/media/DOCKER/UniFiVideo/config",
+					"bind": "/media/DOCKER/UniFiVideo/config",
 					"container": "/config"
 				}
 			],
@@ -8453,15 +8453,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/unmanic/config",
+					"bind": "/media/DOCKER/unmanic/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/media/DOCKER/unmanic/library",
+					"bind": "/media/DOCKER/unmanic/library",
 					"container": "/library"
 				},
 				{
-					"volume": "/media/DOCKER/unmanic/tmp",
+					"bind": "/media/DOCKER/unmanic/tmp",
 					"container": "/tmp/unmanic"
 				}
 			],
@@ -8507,7 +8507,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/uptime-kuma/data",
+					"bind": "/media/DOCKER/uptime-kuma/data",
 					"container": "/app/data"
 				}
 			]
@@ -8542,11 +8542,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/urbackup",
+					"bind": "/media/DOCKER/urbackup",
 					"container": "/var/urbackup"
 				},
 				{
-					"volume": "/MEDIA/backups",
+					"bind": "/MEDIA/backups",
 					"container": "/backup"
 				}
 			],
@@ -8572,7 +8572,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Bitwarden/data",
+					"bind": "/media/DOCKER/Bitwarden/data",
 					"container": "/data"
 				}
 			]
@@ -8670,7 +8670,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/var/run/docker.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				}
 			]
@@ -8701,11 +8701,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/WebGrabPlus/config",
+					"bind": "/media/DOCKER/WebGrabPlus/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/media/DOCKER/WebGrabPlus/data",
+					"bind": "/media/DOCKER/WebGrabPlus/data",
 					"container": "/data"
 				}
 			],
@@ -8729,7 +8729,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Whoogle/config",
+					"bind": "/media/DOCKER/Whoogle/config",
 					"container": "/config"
 				}
 			],
@@ -8753,11 +8753,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Wikijs/config",
+					"bind": "/media/DOCKER/Wikijs/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/media/DOCKER/Wikijs/data",
+					"bind": "/media/DOCKER/Wikijs/data",
 					"container": "/data"
 				}
 			],
@@ -8784,7 +8784,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Win2000/zdrive",
+					"bind": "/media/DOCKER/Win2000/zdrive",
 					"container": "/mnt"
 				}
 			]
@@ -8894,11 +8894,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/Yacht/config",
+					"bind": "/media/DOCKER/Yacht/config",
 					"container": "/config"
 				},
 				{
-					"volume": "/var/run/docker.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				}
 			],
@@ -9049,23 +9049,23 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/YTDLM",
+					"bind": "/media/DOCKER/YTDLM",
 					"container": "/app/appdata"
 				},
 				{
-					"volume": "/MEDIA/Youtube/Video",
+					"bind": "/MEDIA/Youtube/Video",
 					"container": "/app/video"
 				},
 				{
-					"volume": "/MEDIA/Youtube/Subscriptions",
+					"bind": "/MEDIA/Youtube/Subscriptions",
 					"container": "/app/subscriptions"
 				},
 				{
-					"volume": "/MEDIA/Youtube/Users",
+					"bind": "/MEDIA/Youtube/Users",
 					"container": "/app/users"
 				},
 				{
-					"volume": "/MEDIA/Youtube/Audio",
+					"bind": "/MEDIA/Youtube/Audio",
 					"container": "/app/audio"
 				}
 			],
@@ -9100,7 +9100,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"volume": "/media/DOCKER/ZNC/config",
+					"bind": "/media/DOCKER/ZNC/config",
 					"container": "/config"
 				}
 			],
