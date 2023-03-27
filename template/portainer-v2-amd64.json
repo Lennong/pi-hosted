@@ -135,19 +135,19 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media/Music",
 					"container": "/music"
 				},
 				{
-					"bind": "/media/DOCKER/Airsonic/Playlists",
+					"bind": "/media/Playlists",
 					"container": "/playlists"
 				},
 				{
-					"bind": "/MEDIA/Podcasts",
+					"bind": "/media/Podcasts",
 					"container": "/podcasts"
 				},
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media",
 					"container": "/media"
 				},
 				{
@@ -201,19 +201,19 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media/Music",
 					"container": "/music"
 				},
 				{
-					"bind": "/media/DOCKER/Airsonic-Advanced/Playlists",
+					"bind": "/media/Playlists",
 					"container": "/playlists"
 				},
 				{
-					"bind": "/MEDIA/Podcasts",
+					"bind": "/media/Podcasts",
 					"container": "/podcasts"
 				},
 				{
-					"bind": "/media/DOCKER/Airsonic-Advanced/Media",
+					"bind": "/media",
 					"container": "/media"
 				},
 				{
@@ -553,11 +553,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/MEDIA/Movies",
+					"bind": "/media/Movies",
 					"container": "/movies"
 				}
 			],
@@ -596,11 +596,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media/Music",
 					"container": "/music"
 				}
 			],
@@ -681,11 +681,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Books",
+					"bind": "/media/Books",
 					"container": "/books"
 				},
 				{
-					"bind": "/MEDIA/Podcasts",
+					"bind": "/media/Podcasts",
 					"container": "/podcast"
 				},
 				{
@@ -769,11 +769,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/media/DOCKER/Caddy/Data",
+					"bind": "/media/DOCKER/Caddy/data",
 					"container": "/data"
 				},
 				{
-					"bind": "/media/DOCKER/Caddy/Config",
+					"bind": "/media/DOCKER/Caddy/config",
 					"container": "/config"
 				},
 				{
@@ -818,7 +818,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Books",
+					"bind": "/media/Books",
 					"container": "/books"
 				},
 				{
@@ -858,7 +858,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Books",
+					"bind": "/media/Books",
 					"container": "/books"
 				},
 				{
@@ -1217,7 +1217,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Books",
+					"bind": "/media/Books",
 					"container": "/books"
 				},
 				{
@@ -1261,11 +1261,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/MEDIA/Movies",
+					"bind": "/media/Movies",
 					"container": "/movies"
 				}
 			],
@@ -1304,7 +1304,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media/Music",
 					"container": "/music"
 				}
 			],
@@ -1459,7 +1459,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -1488,7 +1488,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			]
@@ -1532,7 +1532,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -1613,7 +1613,7 @@
 					"container": "/etc/localtime"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
@@ -1948,11 +1948,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/data/tvshows"
 				},
 				{
-					"bind": "/MEDIA/Movies",
+					"bind": "/media/Movies",
 					"container": "/data/movies"
 				}
 			],
@@ -2001,7 +2001,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/srv"
 				},
 				{
@@ -2045,7 +2045,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/srv"
 				},
 				{
@@ -2295,11 +2295,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Comics",
+					"bind": "/media/Comics",
 					"container": "/comics"
 				},
 				{
-					"bind": "/MEDIA/Gazee",
+					"bind": "/media/Gazee",
 					"container": "/mylar"
 				}
 			],
@@ -2676,11 +2676,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/Downloads"
 				},
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media/Music",
 					"container": "/music"
 				}
 			],
@@ -3389,7 +3389,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -3434,7 +3434,7 @@
 					"container": "/opt/JDownloader/app/cfg"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/opt/JDownloader/Downloads"
 				}
 			],
@@ -3481,51 +3481,15 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/data/tvshows"
 				},
 				{
-					"bind": "/MEDIA/Movies",
+					"bind": "/media/Movies",
 					"container": "/data/movies"
 				}
 			],
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://jellyfin.org/\" target=\"_blank\">https://jellyfin.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-jellyfin\" target=\"_blank\">https://docs.linuxserver.io/images/docker-jellyfin</a><br><br><br>"
-		},
-		{
-			"categories": [
-				"Video",
-				"Music",
-				"Photos",
-				"Management"
-			],
-			"description": "jfa-go is a user management app for Jellyfin (and now Emby) that provides invite-based account creation as well as other features that make one's instance much easier to manage.",
-			"image": "hrfee/jfa-go:latest",
-			"logo": "https://github.com/hrfee/jfa-go/raw/main/images/jfa-go-icon.png",
-			"name": "jfa-go",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://jfa-go.com/\" target=\"_blank\">https://jfa-go.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://wiki.jfa-go.com/\" target=\"_blank\">https://wiki.jfa-go.com/</a><br><br><br>This system is setup to work with either Emby or Jellyfin out of the box.  During the initial setup the user will have the option of which server they will be administering.",
-			"platform": "linux",
-			"restart_policy": "unless-stopped",
-			"title": "Jellyfin-Accounts",
-			"type": 1,
-			"network": "bridge",
-			"ports": [
-				"8056:8056/tcp"
-			],
-			"volumes": [
-				{
-					"bind": "/media/DOCKER/Jelllyfin",
-					"container": "/jf"
-				},
-				{
-					"bind": "/media/DOCKER/jfago/data",
-					"container": "/data"
-				},
-				{
-					"bind": "/etc/localtime",
-					"container": "/etc/localtime",
-					"readonly": true
-				}
-			]
 		},
 		{
 			"categories": [
@@ -3599,15 +3563,15 @@
 			],
 			"volumes": [
 				{
-					"bind": "/media/DOCKER/Kavita/manga",
+					"bind": "/media/Manga",
 					"container": "/manga"
 				},
 				{
-					"bind": "/media/DOCKER/Kavita/comics",
+					"bind": "/media/Comics",
 					"container": "/comics"
 				},
 				{
-					"bind": "/media/DOCKER/Kavita/books",
+					"bind": "/media/Books",
 					"container": "/books"
 				},
 				{
@@ -3742,12 +3706,15 @@
 			"type": 1,
 			"volumes": [
 				{
+					"bind": "/media/DOCKER/LazyLibrarian/config",
 					"container": "/config"
 				},
 				{
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
+					"bind": "/media/Books",
 					"container": "/books"
 				}
 			],
@@ -3919,11 +3886,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media/Music",
 					"container": "/music"
 				}
 			],
@@ -4072,7 +4039,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Pictures",
+					"bind": "/media/Pictures",
 					"container": "/pictures"
 				}
 			],
@@ -4341,11 +4308,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -4380,7 +4347,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -4632,7 +4599,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Music",
+					"bind": "/media/Music",
 					"container": "/music"
 				}
 			],
@@ -4811,11 +4778,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/MEDIA/Comics",
+					"bind": "/media/Comics",
 					"container": "/comics"
 				}
 			],
@@ -5580,7 +5547,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -5621,7 +5588,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -6100,11 +6067,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Pictures",
+					"bind": "/media/Pictures",
 					"container": "/Pictures"
 				},
 				{
-					"bind": "/MEDIA/Thumbs",
+					"bind": "/media/Thumbs",
 					"container": "/Thumbs"
 				},
 				{
@@ -6381,11 +6348,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/MEDIA/Movies",
+					"bind": "/media/Movies",
 					"container": "/movies"
 				}
 			],
@@ -6704,7 +6671,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -6760,7 +6727,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/app/qBittorrent/downloads"
 				}
 			]
@@ -6834,11 +6801,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/MEDIA/Movies",
+					"bind": "/media/Movies",
 					"container": "/movies"
 				}
 			],
@@ -7036,11 +7003,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Books",
+					"bind": "/media/Books",
 					"container": "/books"
 				},
 				{
-					"bind": "/MEDIA/downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7150,7 +7117,7 @@
 					"container": "/sync"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7257,7 +7224,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
@@ -7300,11 +7267,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/MEDIA/Downloads/incomplete",
+					"bind": "/media/disk0/downloads",
 					"container": "/incomplete-downloads"
 				}
 			],
@@ -7468,11 +7435,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/tv"
 				}
 			],
@@ -7512,11 +7479,11 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -7623,11 +7590,11 @@
 					"container": "/dev/rtc"
 				},
 				{
-					"bind": "/MEDIA/TV",
+					"bind": "/media/TV",
 					"container": "/tv"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				}
 			],
@@ -8080,7 +8047,7 @@
 					"container": "/config"
 				},
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/downloads"
 				},
 				{
@@ -8154,7 +8121,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/data"
 				},
 				{
@@ -8228,7 +8195,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/MEDIA/Downloads",
+					"bind": "/media/disk0/downloads",
 					"container": "/data"
 				},
 				{
@@ -8546,7 +8513,7 @@
 					"container": "/var/urbackup"
 				},
 				{
-					"bind": "/MEDIA/backups",
+					"bind": "/media/backups",
 					"container": "/backup"
 				}
 			],
@@ -9053,19 +9020,19 @@
 					"container": "/app/appdata"
 				},
 				{
-					"bind": "/MEDIA/Youtube/Video",
+					"bind": "/media/Youtube/Video",
 					"container": "/app/video"
 				},
 				{
-					"bind": "/MEDIA/Youtube/Subscriptions",
+					"bind": "/media/Youtube/Subscriptions",
 					"container": "/app/subscriptions"
 				},
 				{
-					"bind": "/MEDIA/Youtube/Users",
+					"bind": "/media/Youtube/Users",
 					"container": "/app/users"
 				},
 				{
-					"bind": "/MEDIA/Youtube/Audio",
+					"bind": "/media/Youtube/Audio",
 					"container": "/app/audio"
 				}
 			],
